@@ -1,0 +1,25 @@
+.calendar-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .employee-column {
+    flex: 0 0 200px; /* Fixed width for the employee column */
+    border-right: 1px solid #ddd;
+    background-color: #f8f9fa;
+  }
+  
+  .employee-row {
+    height: 70px; /* Match FullCalendar row height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .calendar-grid {
+    flex: 1; /* Take up the remaining space */
+  }
+  
